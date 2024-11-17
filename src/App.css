@@ -1,0 +1,60 @@
+:root{
+  --primary-color:#6f55f2;
+  --secondary-color:#132742;
+}
+
+
+.body{
+  --font-name: 'Times New Roman', Times, serif;
+}
+
+
+.section{
+  padding: 50px 0px;
+  
+}
+
+
+a{
+  text-decoration: none;
+  color: unset;
+}
+a:hover{
+  color: unset;
+}
+
+
+link{
+  text-decoration: none;
+  color: unset;
+}
+link:hover{
+  color: unset;
+}
+
+ul{
+  list-style: none;
+}
+
+.container{
+  width: 1350px;
+  margin: auto;
+  padding: 0px 15px;
+}
+
+.section-style{
+  color: var(--secondary-color);
+  font-weight: 700;
+}
+.reg-btn{
+  padding: 7px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  font-family: var(--font-name);
+  cursor: pointer;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  outline: none;
+}
