@@ -25,7 +25,8 @@
   line-height: 10px;
 }
 .logo-img img{
-  width: 6rem;
+  width: 4rem;
+  border-radius: 50%;
 }
 .navigation{
   display: flex;

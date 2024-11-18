@@ -1,6 +1,6 @@
 import React from 'react'
 import './Header.css'
-import logo from '../../assets/img/logo.png'
+import logo from '../../assets/img/logo.webp'
 import { Link } from "react-router-dom"; 
 
 function Header() {
@@ -15,7 +15,7 @@ function Header() {
       path:'/cource', display:'Cources'
     },
     {
-      path:'/', display:'About Us'
+      path:'/aboutus', display:'About Us'
     },
   ]
   return (

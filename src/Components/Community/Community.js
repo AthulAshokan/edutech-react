@@ -4,7 +4,7 @@ import tc from '../../assets/img/tc.png'
 
 function Community() {
   const btnHandle = ()=>{
-    window.open('https://globalai.community/',"_break")
+    window.open('https://techcommunity.microsoft.com/',"_break")
   }
   return (
     <div className="container">

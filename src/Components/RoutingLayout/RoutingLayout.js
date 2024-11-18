@@ -6,6 +6,9 @@ import Footer from '../Footer/Footer';
 import Home from '../Pages/Home';
 import Pricing from '../Pricing/Pricing';
 import Course from '../Course/Course';
+import About from '../Pages/About/About';
+import ContactUs from '../Pages/ContactUs/ContactUs';
+import Support from '../Pages/Support/Support';
 
 
 function RoutingLayout() {
@@ -17,6 +20,9 @@ function RoutingLayout() {
     <Route path='/' element={<Home/>}/>
     <Route path='/service' element={<Pricing/>}/>
     <Route path='/cource' element={<Course/>}/>
+    <Route path='/aboutus' element={<About/>}/>
+    <Route path='/contactus' element={<ContactUs/>}/>
+    <Route path='/support' element={<Support/>}/>
   </Routes>
   <Footer/>
 </Router>
